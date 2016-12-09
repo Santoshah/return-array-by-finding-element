@@ -28,7 +28,7 @@ var person = [
 }
 
 ];
-console.log(person[0]['firstName'])
+console.log(person[0]['firstName']) //returns firstname of 0 index array.
 function findElement(arr, propname, propvalue){
 
     for(var i=0; i<arr.length; i++) {
@@ -37,7 +37,7 @@ function findElement(arr, propname, propvalue){
         }
     }
 }
-
+console.log(findElement(person, "firstName", "John")); 
 
 </script>
 
