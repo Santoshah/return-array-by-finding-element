@@ -1,1 +1,1 @@
-# In JavaScript, if you use the function keyword inside another function, you are creating a closure.
+# Find the array index with the help of array element.
