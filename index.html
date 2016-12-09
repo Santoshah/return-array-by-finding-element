@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>Javasciprt Closure eg1</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> -->
+
+	<!-- <script src="js/script.js"></script> -->
+
+
+</head>
+<body ng-app="myModule" ng-controller="myController">
+
+<p id="demo"></p>
+<script type="text/javascript">
+
+var person = [
+{
+    firstName : "John",
+    lastName : "Doe",
+    age : 60
+},
+{
+    firstName : "san",
+    lastName : "kum",
+    age : 100
+}
+
+];
+console.log(person[0]['firstName'])
+function findElement(arr, propname, propvalue){
+
+    for(var i=0; i<arr.length; i++) {
+        if(arr[i][propname] == propvalue) {
+            return arr[i]
+        }
+    }
+}
+
+
+</script>
+
+
+
+</body>
+</html>
